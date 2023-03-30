@@ -1,0 +1,144 @@
+body {
+
+    .container {
+        max-width: 1440px;
+        width: 100%;
+        background-color: #141414;
+
+        .sidebar {
+            width: 25%;
+            float: left;
+            max-height: 1092px;
+            height: 100%;
+            background-color: #141414;
+
+            .sidebar-content {
+                max-width: 228px;
+                width: 100%;
+                margin: 0 auto;
+                padding-top: 60px;
+
+                .logo {
+                    margin-bottom: 56px;
+                    cursor: pointer;
+                }
+
+                .navigation {
+                    margin-bottom: 400px;
+
+                    li {
+                        max-width: 228px;
+                        width: 100%;
+                        height: 48px;                       
+                        margin-bottom: 16px;
+                        display: flex;
+                        align-items: center;
+
+                        .sidebar-a {
+                            font-size: 14px;
+                            color: #EBEBF599;
+                            font-family: 'Montserrat', sans-serif;
+                            font-weight: 600;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+
+                        
+
+                        .home::before {
+                            content: url('../images/home1.png');
+                            margin-right: 15px;
+                            padding-left: 30px;
+                        }
+
+                        .store::before {
+                            content: url('../images/store.png');
+                            margin-right: 15px;
+                            padding-left: 30px;
+                        }
+
+                        .library::before {
+                            content: url('../images/library.png');
+                            margin-right: 15px;
+                            padding-left: 30px;
+                        }
+
+                        .friends::before {
+                            content: url('../images/friends.png');
+                            margin-right: 15px;
+                            padding-left: 30px;
+                        }
+
+                        .live::before {
+                            content: url('../images/live.png');
+                            margin-right: 15px;
+                            padding-left: 30px;
+                        }
+                    }
+
+                    li:hover {
+                        background-color: #2F2F2F;
+                        border-radius: 12px;
+                    }
+                    
+                    }
+                }
+
+                .navigation2 {
+
+                    margin-bottom: 50px;
+                    
+                    li {
+                        max-width: 228px;
+                        width: 100%;
+                        height: 48px;                       
+                        margin-bottom: 16px;
+                        display: flex;
+                        align-items: center;
+
+                        .sidebar-a-2 {
+                            font-size: 14px;
+                            color: #EBEBF599;
+                            font-family: 'Montserrat', sans-serif;
+                            font-weight: 600;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+
+                        .downloads::before {
+                            content: url('../images/download.png');
+                            margin-right: 15px;
+                            padding-left: 30px;
+                        }
+
+                        .settings::before {
+                            content: url('../images/settings.png');
+                            margin-right: 15px;
+                            padding-left: 30px;
+                        }
+
+                        .tung::before {
+                            content: url('../images/tung.png');
+                            margin-right: 15px;
+                            padding-left: 30px;
+                        }
+                    }
+
+                    li:hover {
+                        background-color: #2F2F2F;
+                        border-radius: 12px;
+                    }
+                }
+
+            }
+
+        .main-content {
+        width: 75%;
+        float: right;
+        background-color: red($color: #000000);
+        }
+
+    }
+}
