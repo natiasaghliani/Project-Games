@@ -217,7 +217,7 @@ body {
                     width: 100%;
                     display: flex;
                     justify-content: space-between;
-                    padding: 40px 20px;
+                    padding: 0px 20px;
 
                     .s-1-left {
                         max-width: 908px;
@@ -313,6 +313,123 @@ body {
 
                         .s-1-card:hover {
                             border-bottom: 0.5px solid #FFFFFF;
+                        }
+                    }
+                }
+            }
+
+            .s-2 {
+
+                .container {
+                    max-width: 1115px;
+                    width: 100%;
+                    padding: 44px 20px;
+
+                    .first-line {
+                        max-width: 1115px;
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-bottom: 30px;
+
+                        h3 {
+                            font-size: 16px;
+                            color: #FFFFFF;
+                            font-family: 'Montserrat', sans-serif;
+                            font-weight:600;
+                        }
+
+                        .scroll {
+                            width: 96px;
+                            display: flex;
+                            justify-content: space-between;
+
+                            img {
+                                cursor: pointer;
+                            }
+                        }
+                    }
+
+                    .second-line {
+                        max-width: 1115px;
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+
+                        .s-2-card {
+                            width: 195px;
+
+                            img {
+                                margin-bottom: 18px;
+                                width: 195px;
+                            }
+
+                            h4 {
+                                font-size: 14px;
+                                color: #FFFFFF;
+                                font-family: 'Montserrat', sans-serif;
+                                font-weight:600;
+                                line-height: 20px;
+                                margin-bottom: 6px;
+                                padding-left: 5px;
+                            }
+
+                            h5 {
+                                font-size: 16px;
+                                color: rgba(235, 235, 245, 0.6);
+                                font-family: 'Montserrat', sans-serif;
+                                font-weight:500;
+                                line-height: 20px;
+                                margin-bottom: 6px;
+                                padding-left: 5px;
+                            }
+
+                            .price {
+                                width: 143px;
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                padding-left: 5px;
+
+                                .sale {
+                                    font-size: 16px;
+                                    color: #FFFFFF;
+                                    font-family: 'Montserrat', sans-serif;
+                                    font-weight:500;
+                                    line-height: 20px;
+                                    margin-bottom: 6px;
+                                }
+
+                                .percent {
+                                    background-color: #B1DD8B;
+                                    border-radius: 6px;
+                                    padding: 2px;
+
+                                    font-size: 16px;
+                                    color: #38571A;
+                                    font-family: 'Montserrat', sans-serif;
+                                    font-weight:500;
+                                    line-height: 20px;
+                                    text-align: center;
+                                    margin-bottom: 6px;
+                                }
+
+                                .old-price {
+                                    font-size: 16px;
+                                    color: rgba(235, 235, 245, 0.6);
+                                    font-family: 'Montserrat', sans-serif;
+                                    font-weight:500;
+                                    line-height: 20px;
+                                    margin-bottom: 6px;
+                                    text-decoration: line-through;
+                                }
+                            }
+                        }
+
+                        .s-2-card:hover {
+                            background-color: #2F2F2F;
+                            border-radius: 6px;
                         }
                     }
                 }
