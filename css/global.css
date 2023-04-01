@@ -75,18 +75,59 @@ body .container .sidebar {
   background-color: #141414;
   border-right: 1px solid #38383A;
 }
+@media (max-width: 1018px) {
+  body .container .sidebar {
+    width: 20%;
+  }
+}
+@media (max-width: 898px) {
+  body .container .sidebar {
+    width: 10%;
+    height: 1092px;
+  }
+}
 body .container .sidebar .sidebar-content {
   max-width: 228px;
   width: 100%;
   margin: 0 auto;
   padding-top: 60px;
 }
+@media (max-width: 898px) {
+  body .container .sidebar .sidebar-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 36px;
+  }
+}
+body .container .sidebar .sidebar-content .sidebar-burger {
+  display: none;
+}
+@media (max-width: 898px) {
+  body .container .sidebar .sidebar-content .sidebar-burger {
+    display: block;
+    padding: 0 5px;
+  }
+}
 body .container .sidebar .sidebar-content .logo {
   margin-bottom: 56px;
   cursor: pointer;
 }
+@media (max-width: 898px) {
+  body .container .sidebar .sidebar-content .logo {
+    display: none;
+  }
+}
 body .container .sidebar .sidebar-content .navigation {
   margin-bottom: 400px;
+}
+@media (max-width: 898px) {
+  body .container .sidebar .sidebar-content .navigation {
+    display: none;
+  }
 }
 body .container .sidebar .sidebar-content .navigation li {
   max-width: 228px;
@@ -147,6 +188,11 @@ body .container .sidebar .sidebar-content .navigation li:hover {
 body .container .sidebar .navigation2 {
   margin-bottom: 50px;
 }
+@media (max-width: 898px) {
+  body .container .sidebar .navigation2 {
+    display: none;
+  }
+}
 body .container .sidebar .navigation2 li {
   max-width: 228px;
   width: 100%;
@@ -200,6 +246,16 @@ body .container .main-content {
   height: 100%;
   background-color: #141414;
 }
+@media (max-width: 1018px) {
+  body .container .main-content {
+    width: 80%;
+  }
+}
+@media (max-width: 898px) {
+  body .container .main-content {
+    width: 90%;
+  }
+}
 body .container .main-content header .container {
   max-width: 1115px;
   width: 100%;
@@ -220,6 +276,11 @@ body .container .main-content header .container .left-side {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+@media (max-width: 750px) {
+  body .container .main-content header .container .left-side {
+    display: none;
+  }
 }
 body .container .main-content header .container .left-side li {
   width: 78px;
@@ -311,6 +372,12 @@ body .container .main-content .s-1 .container .s-1-left .s-1-title h2 {
   margin-bottom: 28px;
   line-height: 34px;
 }
+@media (max-width: 557px) {
+  body .container .main-content .s-1 .container .s-1-left .s-1-title h2 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
 body .container .main-content .s-1 .container .s-1-left .s-1-title button {
   width: 167px;
   height: 56px;
@@ -326,6 +393,13 @@ body .container .main-content .s-1 .container .s-1-left .s-1-title button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+@media (max-width: 557px) {
+  body .container .main-content .s-1 .container .s-1-left .s-1-title button {
+    width: 140px;
+    height: 40px;
+    font-size: 10px;
+  }
 }
 body .container .main-content .s-1 .container .s-1-left .s-1-title button::after {
   content: url(../images/s-1-button.png);
@@ -410,6 +484,8 @@ body .container .main-content .s-2 .container .second-line {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  overflow: auto;
+  gap: 20px;
 }
 body .container .main-content .s-2 .container .second-line .s-2-card {
   width: 195px;
