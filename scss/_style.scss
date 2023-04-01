@@ -11,6 +11,7 @@ body {
             max-height: 1092px;
             height: 100%;
             background-color: #141414;
+            border-right: 1px solid #38383A;
 
             .sidebar-content {
                 max-width: 228px;
@@ -135,9 +136,187 @@ body {
             }
 
         .main-content {
-        width: 75%;
-        float: right;
-        background-color: red($color: #000000);
+            width: 75%;
+            float: right;
+            max-height: 1092px;
+            height: 100%;
+            background-color: #141414;
+
+            header {
+
+                .container {
+                    max-width: 1115px;
+                    width: 100%;
+                    padding: 40px 20px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .left-side {
+                        max-width: 250px;
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+
+                        li {
+                            width: 78px;
+                            height: 32px;
+                            padding: 8px;
+
+                            a {
+                                font-size: 14px;
+                                color: rgba(235, 235, 245, 0.6);
+                                font-family: 'Montserrat', sans-serif;
+                                font-weight: 600;
+                            }
+
+                            a:hover {
+                                color: #FFFFFF;
+                            }
+
+                            
+                        }
+
+                        li:hover {
+                            background-color: #0061FD;
+                            border-radius: 143px;
+                        }
+                    }
+
+                    .right-side {
+                        width: 374px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        input {
+                            max-width: 318px;
+                            width: 100%;
+                            padding: 10px 10px 10px 40px;
+                            background-color: #2F2F2F;
+                            border-radius: 24px;
+                            border-style: none;
+                            color: #EBEBF5;
+
+                            background-image: url(../images/lup.png);
+                            background-size: 14px;
+                            background-position: 12px center;
+                            background-repeat: no-repeat;
+                        }
+
+                        // input [type="text"]::before {
+                        //     content: url('../images/lup.png');
+                        // }
+                    }
+                }
+            }
+
+            .s-1 {
+
+                .container {
+                    max-width: 1115px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 40px 20px;
+
+                    .s-1-left {
+                        max-width: 908px;
+                        width: 100%;
+                        height: 448px;
+
+                        background-image: url(../images/s-1-cover.svg);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        border-radius: 12px 0px 0px 12px;
+
+                        .s-1-title {
+                            max-width: 446px;
+                            width: 100%;
+                            padding: 20px;
+
+                            h3 {
+                                font-size: 26px;
+                                color: #FFFFFF;
+                                font-family: 'Montserrat', sans-serif;
+                                font-weight:800;
+                                margin-bottom: 165px;
+                            }
+
+                            h6 {
+                                font-size: 14px;
+                                color: #FFFFFF;
+                                font-family: 'Montserrat', sans-serif;
+                                font-weight:600;
+                                margin-bottom: 4px;
+                            }
+
+                            h2 {
+                                font-size: 24px;
+                                color: #FFFFFF;
+                                font-family: 'Montserrat', sans-serif;
+                                font-weight:800;
+                                margin-bottom: 28px;
+                                line-height: 34px;
+                            }
+
+                            button {
+                                width: 167px;
+                                height: 56px;
+                                border-radius: 14px;
+                                background-color: #0061FD;
+                                border-style: none;
+                                color: #FFFFFF;
+                                padding: 16px 18px;
+                                cursor: pointer;
+
+                                display: flex;
+                                align-items: center;
+                            }
+
+                            button::after {
+                                content: url(../images/s-1-button.png);
+                                margin-left: 12px;
+                            }
+                        }         
+                    }
+
+                    .s-1-right {
+                        max-width: 200px;
+                        width: 100%;
+                        background-color: #2F2F2F;
+
+                        border-radius: 0px 12px 12px 0px;
+
+                        .s-1-card {
+                            display: flex;
+                            align-items: center;
+                            padding: 8px 12px,;
+
+                            img {
+                                vertical-align: middle;
+                                margin-right: 15px;
+                            }
+
+                            h5 {
+                                font-size: 14px;
+                                color: #FFFFFF;
+                                font-family: 'Montserrat', sans-serif;
+                                font-weight:600;
+                                line-height: 17px;
+                                cursor: pointer;
+                            }
+
+                            h5:hover {
+                                color: #0061FD;
+                            }
+                        }
+
+                        .s-1-card:hover {
+                            border-bottom: 0.5px solid #FFFFFF;
+                        }
+                    }
+                }
+            }
         }
 
     }
