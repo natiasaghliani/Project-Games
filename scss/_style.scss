@@ -358,6 +358,10 @@ body {
 
                         border-radius: 0px 12px 12px 0px;
 
+                        max-height: 448px;
+                        height: 100%;
+                        overflow: auto;
+
                         @media (max-width: 451px) {
                             max-width: 150px;
                         }

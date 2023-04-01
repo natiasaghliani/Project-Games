@@ -420,6 +420,9 @@ body .container .main-content .s-1 .container .s-1-right {
   width: 100%;
   background-color: #2F2F2F;
   border-radius: 0px 12px 12px 0px;
+  max-height: 448px;
+  height: 100%;
+  overflow: auto;
 }
 @media (max-width: 451px) {
   body .container .main-content .s-1 .container .s-1-right {
