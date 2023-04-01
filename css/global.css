@@ -325,6 +325,16 @@ body .container .main-content header .container .right-side input {
   background-position: 12px center;
   background-repeat: no-repeat;
 }
+@media (max-width: 441px) {
+  body .container .main-content header .container .right-side input {
+    max-width: 250px;
+  }
+}
+@media (max-width: 368px) {
+  body .container .main-content header .container .right-side input {
+    max-width: 200px;
+  }
+}
 body .container .main-content .s-1 .container {
   max-width: 1115px;
   width: 100%;
@@ -411,6 +421,11 @@ body .container .main-content .s-1 .container .s-1-right {
   background-color: #2F2F2F;
   border-radius: 0px 12px 12px 0px;
 }
+@media (max-width: 451px) {
+  body .container .main-content .s-1 .container .s-1-right {
+    max-width: 150px;
+  }
+}
 body .container .main-content .s-1 .container .s-1-right .s-1-card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -424,6 +439,11 @@ body .container .main-content .s-1 .container .s-1-right .s-1-card img {
   vertical-align: middle;
   margin-right: 15px;
 }
+@media (max-width: 451px) {
+  body .container .main-content .s-1 .container .s-1-right .s-1-card img {
+    margin-right: 10px;
+  }
+}
 body .container .main-content .s-1 .container .s-1-right .s-1-card h5 {
   font-size: 14px;
   color: #FFFFFF;
@@ -431,6 +451,17 @@ body .container .main-content .s-1 .container .s-1-right .s-1-card h5 {
   font-weight: 600;
   line-height: 17px;
   cursor: pointer;
+}
+@media (max-width: 451px) {
+  body .container .main-content .s-1 .container .s-1-right .s-1-card h5 {
+    font-size: 11px;
+  }
+}
+@media (max-width: 401px) {
+  body .container .main-content .s-1 .container .s-1-right .s-1-card h5 {
+    font-size: 8px;
+    font-weight: 500;
+  }
 }
 body .container .main-content .s-1 .container .s-1-right .s-1-card h5:hover {
   color: #0061FD;
